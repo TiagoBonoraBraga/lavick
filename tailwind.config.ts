@@ -9,9 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        backgroundDiv: '#f5f5f5', // Exemplo de cor
+          primary: '#333333',
+          hover: '#666666',
       },
+      screens: {
+        'xs': '480px', // Extra small screens
+        'sm': '640px', // Small screens (mobile)
+        'md': '768px', // Medium screens (tablets)
+        'lg': '1024px', // Large screens (laptops/desktops)
+        'xl': '1280px', // Extra large screens
+        '2xl': '1536px', // Extra extra large screens
+      },      
     },
   },
   plugins: [],
