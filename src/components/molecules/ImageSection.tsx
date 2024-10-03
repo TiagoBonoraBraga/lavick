@@ -9,7 +9,7 @@ export default function ImageSection() {
                 alt="Lavick Marcenaria"
                 className="w-full h-auto"
             />
-            <div className="hidden md:block absolute top-[30%] left-1/2 transform -translate-x-1/2 text-white text-center bg-black bg-opacity-70 p-6 md:p-10 rounded-lg w-full max-w-[900px] h-auto md:h-[200px]">
+            <div className="hidden md:block absolute top-[30%] left-1/2 transform -translate-x-1/2 text-white text-center bg-black bg-opacity-70 p-6 md:p-10 rounded-lg w-full max-w-[900px]  md:h-[200px]">
                 <h1 className="text-4xl md:text-6xl lg:text-8xl mb-2 text-orange-500">
                     Lavick Marcenaria
                 </h1>
