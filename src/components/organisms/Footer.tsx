@@ -18,11 +18,11 @@ export default function Footer() {
                             <h3 className="text-lg font-bold mb-2 text-orange-500">Lavick</h3>
                             <ul>
                                 <li><Link href="/" className="hover:text-orange-500">Home</Link></li>
-                                <li><a href="/about" className="hover:text-orange-500">Sobre</a></li>
-                                <li><a href="/moveis" className="hover:text-orange-500">Móveis sob Medida</a></li>
-                                <li><a href="/serviços" className="hover:text-orange-500">Serviços</a></li>
-                                <li><a href="/blog" className="hover:text-orange-500">Blog</a></li>
-                                <li><a href="/contato" className="hover:text-orange-500">Contato</a></li>
+                                <li><Link href="/about" className="hover:text-orange-500">Sobre</Link></li>
+                                <li><Link href="/moveis" className="hover:text-orange-500">Móveis sob Medida</Link></li>
+                                <li><Link href="/serviços" className="hover:text-orange-500">Serviços</Link></li>
+                                <li><Link href="/blog" className="hover:text-orange-500">Blog</Link></li>
+                                <li><Link href="/contact" className="hover:text-orange-500">Contato</Link></li>
                             </ul>
                         </div>
 
