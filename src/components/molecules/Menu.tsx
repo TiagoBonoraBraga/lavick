@@ -41,7 +41,7 @@ export default function Menu() {
                     {/* Submenu que aparece no hover */}
                     <ul className="absolute left-0  hidden w-48 bg-white shadow-lg rounded-lg group-hover:block">
                         <li className="p-3 border-b border-gray-200 hover:bg-gray-100">
-                            <Link href="/moveis/dormitorio">Dormitório</Link>
+                            <Link href="/bedroom">Dormitório</Link>
                         </li>
                         <li className="p-3 border-b border-gray-200 hover:bg-gray-100">
                             <Link href="/moveis/cozinha">Cozinha</Link>
