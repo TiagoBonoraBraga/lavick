@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Background from "../../../public/lavickFachadOpaca.jpg";
 
-export default function AboutHeader() {
+export default function SecondHeader() {
     return (
         <>
             <section className="max-w-[1280px] mx-auto relative overflow-hidden ">
