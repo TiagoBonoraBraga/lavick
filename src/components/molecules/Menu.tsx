@@ -41,28 +41,28 @@ export default function Menu() {
                     {/* Submenu que aparece no hover */}
                     <ul className="absolute left-0  hidden w-48 bg-white shadow-lg rounded-lg group-hover:block">
                         <li className="p-3 border-b border-gray-200 hover:bg-gray-100">
-                            <Link href="/bedroom">Dormitório</Link>
+                            <Link href="/forniture/bedroom">Dormitório</Link>
                         </li>
                         <li className="p-3 border-b border-gray-200 hover:bg-gray-100">
-                            <Link href="/moveis/cozinha">Cozinha</Link>
+                            <Link href="/forniture/kitchen">Cozinha</Link>
                         </li>
                         <li className="p-3 border-b border-gray-200 hover:bg-gray-100">
-                            <Link href="/moveis/banho">Banho</Link>
+                            <Link href="/forniture/bathrooms">Banho</Link>
                         </li>
                         <li className="p-3 border-b border-gray-200 hover:bg-gray-100">
-                            <Link href="/moveis/closet">Closet</Link>
+                            <Link href="/forniture/closet">Closet</Link>
                         </li>
                         <li className="p-3 border-b border-gray-200 hover:bg-gray-100">
-                            <Link href="/moveis/lavanderia">Lavanderia</Link>
+                            <Link href="/forniture/laundry">Lavanderia</Link>
                         </li>
                         <li className="p-3 border-b border-gray-200 hover:bg-gray-100">
-                            <Link href="/moveis/hometheater">Home Theater</Link>
+                            <Link href="/forniture/home-theater">Home Theater</Link>
                         </li>
                         <li className="p-3 border-b border-gray-200 hover:bg-gray-100">
-                            <Link href="/moveis/escritorio">Escritório</Link>
+                            <Link href="/forniture/office">Escritório</Link>
                         </li>
                         <li className="p-3 hover:bg-gray-100">
-                            <Link href="/moveis/saladejantar">Sala de Jantar</Link>
+                            <Link href="/forniture/dining-room">Sala de Jantar</Link>
                         </li>
                     </ul>
                 </ul>
@@ -73,13 +73,13 @@ export default function Menu() {
                     </li>
                     <ul className="absolute left-0  hidden w-48 bg-white shadow-lg rounded-lg group-hover:block">
                         <li className="p-3 border-b border-gray-200 hover:bg-gray-100">
-                            <Link href="/servicos/pisos">Pisos</Link>
+                            <Link href="/services/floors">Pisos</Link>
                         </li>
                         <li className="p-3 border-b border-gray-200 hover:bg-gray-100">
-                            <Link href="/servicos/persianas-cortinas">Persianas e Cortinas</Link>
+                            <Link href="/services/blinds">Persianas e Cortinas</Link>
                         </li>
                         <li className="p-3 hover:bg-gray-100">
-                            <Link href="/servicos/papel-parede">Papel de Parede</Link>
+                            <Link href="/services/wallpaper">Papel de Parede</Link>
                         </li>
                     </ul>
                 </ul>
