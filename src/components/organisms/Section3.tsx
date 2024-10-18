@@ -5,7 +5,7 @@ import Quarto from "../../../public/quarto.jpg";
 export default function Section3() {
     return (
         <>
-            <section className="max-w-[1280px] mx-auto mt-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <section className="max-w-[1280px] mx-auto mt-64 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 {/* Coluna 1: Texto e botões */}
                 <div className="text-center md:text-left p-6">
                     <h1 className="text-2xl font-bold mb-4 lex justify-center">Marcenaria Lavick - Peça já seu orçamento </h1>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TextSection() {
   return (
-    <section className="bg-gradient-to-bl from-slate-100 to-slate-50 max-w-7xl mx-auto py-32 px-6 text-center rounded-lg shadow-lg">
+    <section className="bg-gradient-to-bl from-slate-100 to-slate-50 max-w-7xl mx-auto py-40 px-20 text-center rounded-lg shadow-lg">
       <h1 className="text-4xl font-extrabold text-slate-900 mb-6 leading-tight">
         Lavick Marcenaria e Decorações
       </h1>
