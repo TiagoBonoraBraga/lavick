@@ -18,14 +18,11 @@ export default function Footer() {
                             <h3 className="text-lg font-bold mb-2 text-orange-500">Lavick</h3>
                             <ul>
                                 <li><Link href="/" className="hover:text-orange-500">Home</Link></li>
-                                <li><Link href="/about" className="hover:text-orange-500">Sobre</Link></li>
-                                <li><Link href="/moveis" className="hover:text-orange-500">Móveis sob Medida</Link></li>
-                                <li><Link href="/serviços" className="hover:text-orange-500">Serviços</Link></li>
+                                <li><Link href="/about" className="hover:text-orange-500">Sobre</Link></li>                              
                                 <li><Link href="/blog" className="hover:text-orange-500">Blog</Link></li>
                                 <li><Link href="/contact" className="hover:text-orange-500">Contato</Link></li>
                             </ul>
                         </div>
-
                         <div>
                             <h3 className="text-lg font-bold mb-2 text-orange-500">Endereço</h3>
                             <p>Av. Getúlio Vargas, 1795 - Rebouças</p>

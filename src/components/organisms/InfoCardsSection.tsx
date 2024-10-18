@@ -2,6 +2,7 @@ import Image from "next/image";
 import Background from "../../../public/montagemClosetOffice.png";
 import Comercial from "../../../public/escritorio6.jpg";
 import Residencial from "../../../public/closet1.jpg";
+import Link from "next/link";
 
 
 export default function InfoCardsSection() {
@@ -39,7 +40,9 @@ export default function InfoCardsSection() {
               Móveis para escritório são projetados para oferecer conforto e eficiência, criando um ambiente de trabalho funcional e organizado. Eles combinam design ergonômico e praticidade, essenciais para melhorar a produtividade e bem-estar dos colaboradores.
             </p>
             <button className="bg-orange-500 text-white px-4 py-2 mt-4 rounded hover:bg-orange-600">
-              Saiba Mais
+              <Link href="https://api.whatsapp.com/send?phone=5541998781245&text=Ol%C3%A1,%20gostaria%20de%20um%20or%C3%A7amento. " target="_blank" rel="noopener noreferrer">
+                Saiba mais
+              </Link>
             </button>
           </div>
 
@@ -56,7 +59,9 @@ export default function InfoCardsSection() {
               Móveis residenciais são essenciais para compor e personalizar os ambientes de uma casa, unindo conforto, funcionalidade e estética. Eles refletem o estilo e as necessidades dos moradores, transformando cada espaço em um lugar único e acolhedor.
             </p>
             <button className="bg-orange-500 text-white px-4 py-2 mt-4 rounded hover:bg-orange-600">
-              Saiba Mais
+              <Link href="https://api.whatsapp.com/send?phone=5541998781245&text=Ol%C3%A1,%20gostaria%20de%20um%20or%C3%A7amento. " target="_blank" rel="noopener noreferrer">
+                Saiba mais
+              </Link>
             </button>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconDefinition } from '@fortawesome/fontawesome-common-types';
+import Link from 'next/link';
 
 
 interface HeroCard2Props {
@@ -22,8 +23,10 @@ export default function HeroCard2({h3, p , button, icon}: HeroCard2Props) {
                 <p className="text-center mb-6">
                    {p}
                 </p>
-                <button className="px-4 py-2 border border-black rounded-md text-sm hover:bg-orange-500 hover:text-white hover:border-white">
-                    {button}
+                <button  className="px-4 py-2 border border-black rounded-md text-sm hover:bg-orange-500 hover:text-white hover:border-white">
+                   <Link href="https://api.whatsapp.com/send?phone=5541998781245&text=Ol%C3%A1,%20gostaria%20de%20um%20or%C3%A7amento. " target="_blank" rel="noopener noreferrer">
+                        {button}                   
+                   </Link>
                 </button>
             </div>
         </>
