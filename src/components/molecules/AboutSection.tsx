@@ -5,9 +5,9 @@ import Foto from "../../../public/quartoMenino.jpeg";
 export default function AboutSection1() {
     return (
         <>
-            <section className="max-w-[1280px] mx-auto my-10 flex flex-col gap-16  items-center">
+            <section className="max-w-[1280px] mx-auto my-4 flex flex-col gap-16  items-center">
                 <div className="flex flex-col md:flex-row  justify-center items-center">
-                    <div className="md:w-1/2 p-6  ">
+                    <div className="md:w-1/2 p-6 border border-slate-200 m-4 rounded-lg bg-white shadow-lg ">
                         <h2 className="text-lg font-bold text-black mb-2">SOBRE</h2>
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                             Lavick Marcenaria e Decorações
@@ -22,7 +22,7 @@ export default function AboutSection1() {
                 </div>
                 <div className="flex flex-col md:flex-row  justify-center items-center">
                     
-                    <div className="md:w-1/2 p-6">                       
+                    <div className="md:w-1/2 p-6 border border-slate-200 m-4 rounded-lg bg-white shadow-lg">                       
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                             Tudo para sua Casa.
                         </h1>

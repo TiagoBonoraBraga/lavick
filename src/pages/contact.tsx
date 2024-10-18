@@ -4,7 +4,9 @@ import React from "react";
 export default function Contact() {
     return (
         <>
-        <ContactSection />
+        <main>
+            <ContactSection />
+        </main>
         </>
     )
 }

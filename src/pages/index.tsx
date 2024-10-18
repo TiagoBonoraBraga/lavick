@@ -2,9 +2,9 @@ import React from "react";
 import MainSlide from "@/components/organisms/MainSlide";
 import HeroCardsSection from "@/components/organisms/HeroCardsSection";
 import TextSection from "@/components/organisms/TextSection";
-import Section3 from "@/components/organisms/Section3";
-import InfoCardsSections from "@/components/organisms/InfoCardsSections";
-import Cards from "@/components/molecules/Cards";
+import BudgetSection from "@/components/organisms/BudgetSection";
+import InfoCardsSection from "@/components/organisms/InfoCardsSection";
+import ProductsCardsSection from "@/components/organisms/ProductsCardsSection";
 
 export default function Home() {
   return (
@@ -13,9 +13,9 @@ export default function Home() {
     <MainSlide />  
     <HeroCardsSection/>
     <TextSection />
-    <InfoCardsSections />
-    <Section3 />
-    <Cards />
+    <InfoCardsSection />
+    <BudgetSection />
+    <ProductsCardsSection />
    </main>
    </>
   );

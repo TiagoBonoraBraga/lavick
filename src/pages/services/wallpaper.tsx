@@ -2,7 +2,7 @@ import React from "react";
 import SecondHeader from "@/components/molecules/SecondHeader";
 import ServiceTitle from "@/components/molecules/ServicesTitle";
 import ServiceCard from "@/components/molecules/ServiceCard";
-import { faPaintRoller, faLayerGroup, faTools, faCog } from '@fortawesome/free-solid-svg-icons';
+import { faPaintRoller, faLayerGroup, faTools, faCog, faHeadset } from '@fortawesome/free-solid-svg-icons';
 import ImageGallery from "@/components/molecules/ImageGallery";
 
 const imagesWallpaper= [
@@ -12,9 +12,8 @@ const imagesWallpaper= [
     "/papel4.jpg",
     "/papel5.jpg",
     "/papel6.jpg",
-    "/papel7.jpg",
-    "/papelDeParede.jpg",
-    "/papel1.jpg",
+    "/papel7.jpg",    
+  
 ];
 
 export default function Wallpaper() {
@@ -31,6 +30,7 @@ export default function Wallpaper() {
                     <div className="grid grid-cols-1 gap-6">
                         <ServiceCard  icon={faTools} h3="Durabilidade e Resistência" p="Feito com materiais de alta qualidade, o papel de parede é resistente a desgastes, riscos e manchas, garantindo uma longa vida útil quando bem cuidado." />
                         <ServiceCard  icon={faPaintRoller} h3="Fácil Aplicação e Remoção" p="Comparado à pintura, a aplicação do papel de parede é rápida e limpa. Além disso, muitos papéis de parede modernos são projetados para serem removidos facilmente, sem danificar a superfície da parede." />
+                        <ServiceCard icon={faHeadset} h3="Atendimento Pesonalizado" p="Cada projeto é tratado com atenção única, adaptando-se às suas necessidades e preferências." />
                     </div>
                 </div>
                 <ImageGallery images={imagesWallpaper} />

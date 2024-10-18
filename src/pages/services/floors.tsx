@@ -2,7 +2,7 @@ import React from "react";
 import SecondHeader from "@/components/molecules/SecondHeader";
 import ServiceTitle from "@/components/molecules/ServicesTitle";
 import ServiceCard from "@/components/molecules/ServiceCard";
-import { faSun, faLayerGroup, faTools, faCog } from '@fortawesome/free-solid-svg-icons';
+import { faSun, faLayerGroup, faTools, faCog , faHeadset} from '@fortawesome/free-solid-svg-icons';
 import ImageGallery from "@/components/molecules/ImageGallery";
 
 
@@ -28,9 +28,10 @@ export default function Floors() {
                         <ServiceCard icon={faSun} h3="Durabilidade" p="São resistentes a riscos, manchas e desbotamento, ideais para áreas de alto tráfego." />
                         <ServiceCard icon={faTools} h3="Manutenção Simples" p="Limpeza fácil com um pano úmido ou um aspirador, mantendo a aparência nova por mais tempo." />
                     </div>
-                    <div className="grid grid-cols-1 gap-6">
+                    <div className="grid grid-cols-1 gap-2 items-center ">
                         <ServiceCard icon={faLayerGroup} h3="Facilidade de Instalação" p="O sistema de encaixe (click) permite uma instalação rápida e limpa, sem a necessidade de cola." />
                         <ServiceCard icon={faCog} h3="Custo-Benefício" p="Geralmente mais acessíveis que pisos de madeira maciça, oferecendo uma excelente relação entre custo e qualidade." />
+                        <ServiceCard icon={faHeadset} h3="Atendimento Pesonalizado" p="Cada projeto é tratado com atenção única, adaptando-se às suas necessidades e preferências." />
                     </div>
                 </div>
                 <ImageGallery images={imagesFloors} />

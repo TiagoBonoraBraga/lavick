@@ -48,7 +48,7 @@ const cardsData: Card[] = [
   },
 ];
 
-const CardSection: React.FC = () => {
+export default function ProductsCardsSection() {
   return (
     <section className="container mx-auto px-4 py-16 bg-slate-100 mt-20 ">
       <h1 className="text-4xl font-bold text-center mb-8">Tudo para sua casa</h1>
@@ -78,4 +78,4 @@ const CardSection: React.FC = () => {
   );
 };
 
-export default CardSection;
+

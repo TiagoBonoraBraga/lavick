@@ -2,13 +2,13 @@ import React from "react";
 import Image from "next/image";
 import Quarto from "../../../public/quarto.jpg";
 
-export default function Section3() {
+export default function BudgetSection() {
     return (
         <>
             <section className="max-w-[1280px] mx-auto mt-64 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 {/* Coluna 1: Texto e botões */}
                 <div className="text-center md:text-left p-6">
-                    <h1 className="text-2xl font-bold mb-4 lex justify-center">Marcenaria Lavick - Peça já seu orçamento </h1>
+                    <h1 className="text-2xl font-bold mb-4 lex justify-center">Lavick Marcenaria - Peça já seu orçamento </h1>
                     <h2 className="text-3xl font-bold mb-4"></h2>
                     <h2 className="text-4xl font-extrabold mb-4">Rápido e Fácil</h2>
                     <p className="text-gray-700 mb-6">
@@ -23,7 +23,7 @@ export default function Section3() {
                                 Na Lavick você encontra uma variedade de opções para sua escolha.
                             </p>
                         </button>
-                        <button className="flex flex-col justify-start bg-orange-500 hover:bg-orange-600 text-xl text-white font-bold py-8 px-6 rounded">
+                        <button className="flex flex-col justify-start bg-orange-500 hover:bg-orange-600 text-lg text-white font-bold py-8 px-6 rounded">
                             Realize seu orçamento sem compromisso (41) 99878-1245
                         </button>
                         <button className="flex flex-col justify-start bg-white  text-black font-bold border py-8 px-6 rounded-lg">

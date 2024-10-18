@@ -8,7 +8,7 @@ export default function ContactSection() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-32 bg-backgroundDiv  rounded-lg shadow-md p-20 mb-10 ">
                     <div>
                         <h1 className="text-lg font-bold text-black mb-2">Faça seu Orçamento</h1>
-                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Fale Conosco</h2>                       
+                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Fale Conosco</h2>
 
                         <form className="space-y-4">
                             <div>
@@ -31,7 +31,7 @@ export default function ContactSection() {
                     </div>
                     <div>
                         <div className="py-4">
-                            <p className="font-bold">Visite nosso Showroom e fique por dentro das novidades</p>
+                            <p className="font-bold text-lg">Visite nosso Showroom e fique por dentro das novidades</p>
                             <p><strong>Atendimento seg a sexta -</strong> 9:00 às 18:00 horas</p>
                             <p><strong>Sábado -</strong> 9:00 às 13:00 horas</p>
                         </div>
@@ -49,8 +49,18 @@ export default function ContactSection() {
                             <span className="text-lg font-bold text-black mb-2">Endereço</span>
                             <p>Av. Getúlio Vargas, 1795 Rebouças - Curitiba - Pr</p>
                         </div>
+                        <div className="mt-6">
+                            <h2 className="text-xl font-bold text-black mb-4">Nossa Localização</h2>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.000125034327!2d-49.28360999999999!3d-25.430781299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d50d4b6f3a29a5%3A0x5b21518e456dc65b!2sAv.%20Get%C3%BAlio%20Vargas%2C%201795%20-%20Rebou%C3%A7as%2C%20Curitiba%20-%20PR%2C%2080250-001!5e0!3m2!1spt-BR!2sbr!4v1635474545450!5m2!1spt-BR!2sbr"
+                                width="100%"
+                                height="200"
+                                style={{ border: "0" }}                          
+                                loading="lazy"
+                                title="Localização Lavick Marcenaria"
+                            ></iframe>
+                        </div>
                     </div>
-
 
                 </div>
             </div>

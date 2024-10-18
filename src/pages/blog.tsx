@@ -5,7 +5,7 @@ import { posts } from '../api/posts.mocks';
 
 export default function Blog() {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <main className="container mx-auto px-4 py-8 bg-backgroundDiv">
       <h1 className="text-xl font-bold my-16  pt-6 text-center">Fique por dentro de todas as novidades e descubra as últimas tendências em marcenaria, revestimentos e decoração. </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {posts.map((post) => (
@@ -19,6 +19,6 @@ export default function Blog() {
           </div>
         ))}
       </div>
-    </div>
+    </main>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import SecondHeader from "@/components/molecules/SecondHeader";
 import ServiceTitle from "@/components/molecules/ServicesTitle";
 import ServiceCard from "@/components/molecules/ServiceCard";
-import { faSun , faLayerGroup, faTools, faCog } from '@fortawesome/free-solid-svg-icons';
+import { faSun , faLayerGroup, faTools, faCog, faHeadset } from '@fortawesome/free-solid-svg-icons';
 import ImageGallery from "@/components/molecules/ImageGallery";
 
 const imagesBlids = [
@@ -27,6 +27,7 @@ export default function Blinds() {
                 <div className="grid grid-cols-1 gap-6">
                     <ServiceCard  icon={faLayerGroup} h3="Variedade de Estilos e Materiais" p="Disponíveis em uma ampla gama de materiais, incluindo madeira, alumínio, PVC e tecido, as persianas podem ser encontradas em diversos estilos, como horizontais, verticais, romanas e rolôs,." />
                     <ServiceCard  icon={faCog} h3="Eficiência Energética" p="Podem ajudar a melhorar a eficiência energética de um ambiente, bloqueando o calor excessivo no verão e ajudando a manter o calor durante o inverno, resultando em economia de energia." />
+                    <ServiceCard icon={faHeadset} h3="Atendimento Pesonalizado" p="Cada projeto é tratado com atenção única, adaptando-se às suas necessidades e preferências." />
                 </div>
             </div>
                 <ImageGallery  images={imagesBlids}/>

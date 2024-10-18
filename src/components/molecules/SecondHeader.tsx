@@ -12,7 +12,7 @@ export default function SecondHeader({src, title}: SecondHeaderProps) {
         <>
             <section className="max-w-[1280px] mx-auto relative overflow-hidden ">
                 {/* Imagem de fundo com metade da altura */}
-                <div className="relative h-[50vh] ">
+                <div className="relative h-[30vh]  sm:h-[40vh] xs:h-[30vh]  ">
                     <Image
                         src={src}
                         alt="Lavick Marcenaria" 

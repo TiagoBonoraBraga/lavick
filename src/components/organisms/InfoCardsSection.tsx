@@ -4,9 +4,9 @@ import Comercial from "../../../public/escritorio6.jpg";
 import Residencial from "../../../public/closet1.jpg";
 
 
-export default function InfoCardsSections() {
+export default function InfoCardsSection() {
   return (
-    <section className="max-w-[1280px] mx-auto h-auto relative overflow-visible pt-[72px] md:pt-0 ">
+    <section className="max-w-[1280px] mx-auto h-auto relative overflow-visible  md:pt-0 ">
       {/* Imagem de fundo, visível apenas em telas md e superiores */}
       <div className="hidden md:block w-[1280px] relative">
         <Image
@@ -34,7 +34,7 @@ export default function InfoCardsSections() {
               width={500}
               height={200}
             />
-            <h2 className="text-xl font-bold mt-4">Marcenaria Lavick Comercial</h2>
+            <h2 className="text-xl font-bold mt-4">Lavick Marcenaria Comercial</h2>
             <p className="text-gray-600 mt-2">
               Móveis para escritório são projetados para oferecer conforto e eficiência, criando um ambiente de trabalho funcional e organizado. Eles combinam design ergonômico e praticidade, essenciais para melhorar a produtividade e bem-estar dos colaboradores.
             </p>
@@ -51,7 +51,7 @@ export default function InfoCardsSections() {
               width={500}
               height={200}
             />
-            <h2 className="text-xl font-bold mt-4">Marcenaria Lavick Residencial</h2>
+            <h2 className="text-xl font-bold mt-4">Lavick Marcenaria Residencial</h2>
             <p className="text-gray-600 mt-2">
               Móveis residenciais são essenciais para compor e personalizar os ambientes de uma casa, unindo conforto, funcionalidade e estética. Eles refletem o estilo e as necessidades dos moradores, transformando cada espaço em um lugar único e acolhedor.
             </p>
