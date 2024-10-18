@@ -6,8 +6,10 @@ import AboutSection1 from "@/components/molecules/AboutSection1";
 export default function About() {
     return (
         <>
-        <SecondHeader src="/lavickFachadOpaca.jpg" title="Conheça Nossa História" />
-        <AboutSection1 />
+        <main className="bg-backgroundDiv">
+            <SecondHeader src="/lavickFachadOpaca.jpg" title="Conheça Nossa História" />
+            <AboutSection1 />
+        </main>
         </>
     )
 }

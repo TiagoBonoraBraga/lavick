@@ -7,7 +7,7 @@ export default function Section3() {
         <>
             <section className="max-w-[1280px] mx-auto mt-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 {/* Coluna 1: Texto e botões */}
-                <div className="text-center md:text-left">
+                <div className="text-center md:text-left p-6">
                     <h1 className="text-2xl font-bold mb-4 lex justify-center">Marcenaria Lavick - Peça já seu orçamento </h1>
                     <h2 className="text-3xl font-bold mb-4"></h2>
                     <h2 className="text-4xl font-extrabold mb-4">Rápido e Fácil</h2>
@@ -38,7 +38,14 @@ export default function Section3() {
                 </div>
 
                 {/* Coluna 2: Imagem */}
-                <div className="flex justify-center md:justify-end">
+                <div className="flex flex-col gap-4 justify-center p-4 md:justify-end">
+                    <Image
+                        src={Quarto}
+                        alt="Quarto com móveis planejados"
+                        width={600}
+                        height={200}
+                        className="rounded-lg"
+                    />
                     <Image
                         src={Quarto}
                         alt="Quarto com móveis planejados"

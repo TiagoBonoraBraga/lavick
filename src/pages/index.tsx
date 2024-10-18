@@ -3,7 +3,7 @@ import Cards from "@/components/molecules/Cards";
 import Section3 from "@/components/molecules/Section3";
 import SectionCard from "@/components/molecules/SectionCard";
 import TextSection from "@/components/molecules/TextSection";
-import CardSection from "@/components/organisms/CardSection";
+import HeroCardsSection from "@/components/organisms/HeroCardsSection";
 import MainSlide from "@/components/organisms/MainSlide";
 import React from "react";
 
@@ -11,13 +11,14 @@ import React from "react";
 export default function Home() {
   return (
    <>
-   <MainSlide />
-   {/* <ImageSection /> */}
-   <CardSection />
-   <TextSection />
-   <SectionCard />
-   <Section3 />
-   <Cards />
+   <main className="bg-backgroundDiv">
+    <MainSlide />  
+    <HeroCardsSection/>
+    <TextSection />
+    <SectionCard />
+    <Section3 />
+    <Cards />
+   </main>
    </>
   );
 }

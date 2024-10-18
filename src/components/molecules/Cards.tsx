@@ -58,11 +58,11 @@ const CardSection: React.FC = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {cardsData.map((card, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-md p-6 text-center">
+          <div key={index} className="bg-white rounded-lg shadow-md p-6 ml-4 text-center">
             <Image
               src={card.image}
               alt={card.title}
-              className="rounded-t-lg mb-4"
+              className="rounded-lg mb-4 text-center mx-auto"
               width={300}
               height={200}
             />
