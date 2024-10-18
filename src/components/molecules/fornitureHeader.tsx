@@ -1,11 +1,11 @@
 import React from "react";
 
-interface FornitureSectionProps {
+interface FornitureHeaderProps {
     h1: string;   
     p: string;   
 }
 
-export default function FornitureSection({ h1, p, }: FornitureSectionProps) {
+export default function FornitureHeader({ h1, p, }: FornitureHeaderProps) {
     return (
         <>
             <section className="py-16 ">

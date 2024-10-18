@@ -3,7 +3,7 @@ import SecondHeader from "@/components/molecules/SecondHeader";
 import ServiceTitle from "@/components/molecules/ServicesTitle";
 import ServiceCard from "@/components/molecules/ServiceCard";
 import { faSun, faLayerGroup, faTools, faCog , faHeadset} from '@fortawesome/free-solid-svg-icons';
-import ImageGallery from "@/components/molecules/ImageGallery";
+import ImageGallery from "@/components/organisms/ImageGallery";
 
 
 const imagesFloors = [

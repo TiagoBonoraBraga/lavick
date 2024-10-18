@@ -45,9 +45,9 @@ export default function ImageGallery({ images }: ImageGalleryProps) {
                     </button>
                     <button
                         onClick={() => ImgAction('previous-image')}
-                        className="font-semibold bg-white rounded-md p-2 mr-5 absolute left-80 top-[50%] transform -translate-y-1/2"
+                        className="font-semibold bg-white rounded-md p-4 mr-5 absolute left-80 top-[80%] transform -translate-y-1/2"
                     >
-                        Back
+                        Prox
                     </button>
                     <Image
                         src={data.img}
@@ -58,9 +58,9 @@ export default function ImageGallery({ images }: ImageGalleryProps) {
                     />
                     <button
                         onClick={() => ImgAction('next-image')}
-                        className="font-semibold bg-white rounded-md p-2 ml-5 absolute right-80 top-[50%] transform -translate-y-1/2"
+                        className="font-semibold bg-white rounded-md p-4 ml-5 absolute right-80 top-[80%] transform -translate-y-1/2"
                     >
-                        Próx
+                        Back
                     </button>
                 </div>
             )}

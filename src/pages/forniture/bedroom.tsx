@@ -1,8 +1,8 @@
 import React from "react";
 import SecondHeader from "@/components/molecules/SecondHeader";
-import FornitureSection from "@/components/molecules/fornitureSection";
+import FornitureSection from "@/components/molecules/fornitureHeader";
 import FornitureCard from "@/components/molecules/FornitureCard";
-import ImageGallery from "@/components/molecules/ImageGallery";
+import ImageGallery from "@/components/organisms/ImageGallery";
 
 const imagesBedroom = [
     "/Dormitorio1.jpg",    
