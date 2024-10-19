@@ -20,7 +20,7 @@ export default function Menu() {
 };
     return (
         <>
-            <nav className="flex md:flex-row flex-col justify-center align-middle gap-4">
+            <nav className="flex md:flex-row flex-col justify-center align-middle gap-4 tracking-wide">
                 <ul>
                     <li className="flex items-center p-4 text-primary no-underline gap-2 relative font-sans text-base font-normal leading-[21.79px] text-left transition-colors ease-in-out duration-300 hover:text-orange-500 hover:font-bold before:content-[''] before:absolute before:left-0 before:bottom-[-1px] before:h-[2px] before:w-full before:bg-orange-500 before:origin-bottom-left before:scale-x-0 before:transition-transform before:duration-300 hover:before:scale-x-100">
                         <Link href="/">Home</Link>
@@ -32,10 +32,9 @@ export default function Menu() {
                     </li>
                 </ul>
 
-                <ul className="relative group"> {/* Grupo para hover */}
+                <ul className="relative group"> 
                     <li onClick={() => toggleAccordion('furniture')} className="flex items-center p-4 text-primary no-underline gap-2 relative font-sans text-base font-normal leading-[21.79px] text-left transition-colors ease-in-out duration-300 hover:text-orange-500 hover:font-bold cursor-pointer">
-                        Móveis sob Medida
-                        {/* <span className="ml-2 w-4">▼</span> Seta simples */}
+                        Móveis sob Medida                       
                     </li>
 
                     {/* Submenu que aparece no hover */}

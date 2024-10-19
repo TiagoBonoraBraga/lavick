@@ -5,10 +5,10 @@ import { RxDotFilled } from 'react-icons/rx';
 export default function MainSlide() {
 
     const slides = [
-        { url: "/cozinhaSlide2.jpg" },
-        { url: "/lavanderiaSlide2.jpg" },
-        { url: "/homeSlide2.jpg" },
-        { url: "/quartoSlide3.jpg" }
+        { url: "/cozinhaVerde2.jpeg" },
+        { url: "/lavanderiaSlide.jpg" },
+        { url: "/homeSlide.jpg" },
+        { url: "/quartoSlide.jpg" }
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -39,10 +39,10 @@ export default function MainSlide() {
     };
 
     return (
-        <div className="max-w-[1500px] w-full m-auto py-10 px-2 relative group rounded">
+        <div className="max-w-[1500px] w-full m-auto relative group rounded">
             <div
                 style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-                className="w-full h-[30vh] md:h-[800px] rounded-xl bg-center bg-contain bg-no-repeat duration-500 object-cover object-center"
+                className="w-full h-[50vh] xs:h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[800px] rounded-xl bg-center bg-contain bg-no-repeat duration-500 object-cover"
             ></div>
 
             {/* Left Arrow */}
