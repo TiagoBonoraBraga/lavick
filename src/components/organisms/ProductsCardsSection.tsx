@@ -73,8 +73,8 @@ export default function ProductsCardsSection() {
               height={200}
             />
             <h2 className="text-2xl font-bold mb-2">{card.title}</h2>
-            <p>{card.description}</p>
-            <Link href={card.link} className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded mt-4">
+            <p className='mb-4'>{card.description}</p>
+            <Link href={card.link} className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4  rounded mt-4">
               {card.button}
             </Link>
           </div>

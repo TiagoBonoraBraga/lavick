@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "../../../public/logoPreto.png";
+import Logo from "../../../public/logo/logoPreto.png";
 
 export default function CustomLogo() {
     return (

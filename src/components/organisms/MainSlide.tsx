@@ -42,7 +42,7 @@ export default function MainSlide() {
         <div className="max-w-[1500px] w-full m-auto py-10 px-2 relative group rounded">
             <div
                 style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-                className="w-full h-[30vh] md:h-[800px] rounded-xl bg-center bg-contain bg-no-repeat duration-500 "
+                className="w-full h-[30vh] md:h-[800px] rounded-xl bg-center bg-contain bg-no-repeat duration-500 object-cover object-center"
             ></div>
 
             {/* Left Arrow */}

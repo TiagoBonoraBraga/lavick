@@ -36,7 +36,7 @@ export default function ImageGallery({ images }: ImageGalleryProps) {
     return (
         <>
             {data.img && (
-                <div className="fixed top-0 left-0 h-screen w-screen bg-black bg-opacity-80 z-[9999] flex justify-center items-center">
+                <div className="fixed top-0 left-0 h-screen w-screen bg-black bg-opacity-80 z-[9999] flex justify-center items-center  mx-auto">
                     <button
                         onClick={() => ImgAction()}
                         className="absolute top-5 right-10 text-white text-3xl"
@@ -47,12 +47,12 @@ export default function ImageGallery({ images }: ImageGalleryProps) {
                         onClick={() => ImgAction('previous-image')}
                         className="font-semibold bg-white rounded-md p-4 mr-5 absolute left-80 top-[80%] transform -translate-y-1/2"
                     >
-                        Prox
+                        Back
                     </button>
                     <Image
                         src={data.img}
                         alt="Imagem"
-                        width={500}
+                        width={600}
                         height={500}
                         className="mx-auto block rounded-lg"
                     />
@@ -60,7 +60,7 @@ export default function ImageGallery({ images }: ImageGalleryProps) {
                         onClick={() => ImgAction('next-image')}
                         className="font-semibold bg-white rounded-md p-4 ml-5 absolute right-80 top-[80%] transform -translate-y-1/2"
                     >
-                        Back
+                        Next
                     </button>
                 </div>
             )}

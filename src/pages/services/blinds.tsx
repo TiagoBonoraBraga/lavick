@@ -7,8 +7,7 @@ import ImageGallery from "@/components/organisms/ImageGallery";
 
 const imagesBlids = [
     "/percianas.jpeg",
-    "/persiana3.jpg",    
-    "/persiana1.jpg",
+    "/persiana3.jpg",      
     "/perciana4.jpg",
     "/persiana2.jpg",
 ];
@@ -16,7 +15,7 @@ const imagesBlids = [
 export default function Blinds() {
     return (
         <>
-            <SecondHeader src="/quarto.jpg" title="Persiana" />
+            <SecondHeader src="/percianas.jpeg" title="Persiana" />
             <main>
             <div className="bg-white p-8 sm:p-10 md:p-16 lg:p-20 m-4 sm:m-6 md:m-8 lg:m-10 rounded-lg shadow-xl border grid grid-cols-1 lg:grid-cols-2 gap-8">
                 <div className="flex flex-col justify-start">

@@ -11,7 +11,7 @@ interface CardProps {
 export default function Card({ src, h2, p, alt }: CardProps) {
     return (
         <>
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden  mx-auto">
                 <div className="overflow-hidden">
                     <Image
                         src={src}

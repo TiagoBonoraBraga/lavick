@@ -1,7 +1,7 @@
 import React from "react";
 import SecondHeader from "@/components/molecules/SecondHeader";
 import FornitureHeader from "@/components/molecules/fornitureHeader";
-import FornitureCard from "@/components/molecules/FornitureCard";
+// import FornitureCard from "@/components/molecules/FornitureCard";
 import ImageGallery from "@/components/organisms/ImageGallery";
 
 const imagesBathroom = [
@@ -13,11 +13,11 @@ export default function Bathrooms() {
     return (
         <>
             <main className="bg-backgroundDiv">
-                <SecondHeader src="/quarto.jpg" title="Banheiro" />
+                <SecondHeader src="/banheiro1.jpg" title="Banheiro" />
                 <FornitureHeader
                     h1="Banheiros Sob Medida: O Luxo da Personalização, Cada Detalhe Pensado para Você."
                     p="Transformando Ambientes, Elevando o Conforto e a Elegância." />
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-6 p-6">
+                {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-6 p-6">
                     <FornitureCard
                         src="/quarto.jpg"
                         alt="foto Banheiro"
@@ -36,7 +36,7 @@ export default function Bathrooms() {
                         h2="Banheiro"
                         p="Onde Seu Estilo Encontra a Perfeição."
                     />
-                </div>
+                </div> */}
 
                 <ImageGallery  images={imagesBathroom}/>
             </main>

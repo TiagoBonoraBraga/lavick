@@ -1,13 +1,13 @@
 import React from "react";
 import Image from 'next/image';
-import Logo from "../../../public/logoBranco.png";
+import Logo from "../../../public/logo/logoBranco.png";
 import Link from "next/link";
 
 export default function Footer() {
     return (
         <>
-             <footer className="bg-gray-900 text-white py-8">
-            <div className="container mx-auto px-4">
+             <footer className="bg-gray-900 text-white py-8  mx-auto">
+            <div className="container mx-auto px-4  ">
                 <div className="flex flex-col xs:flex-row justify-between">
                     <div className="flex items-center mb-4 xs:mb-0">
                         <Image src={Logo} alt="Logo Lavick" width={300} />
@@ -27,9 +27,10 @@ export default function Footer() {
                             <h3 className="text-lg font-bold mb-2 text-orange-500">Endereço</h3>
                             <p>Av. Getúlio Vargas, 1795 - Rebouças</p>
                             <h4 className="text-lg font-bold mb-2 text-orange-500">Email</h4>
-                            <p>lavickdec@gmail.com</p>
+                            <p>lavickdec@yahoo.com</p>
                             <h4 className="text-lg font-bold mb-2 text-orange-500">Fone</h4>
                             <p>(41) 99878-1245</p>
+                            <p>(41) 3323-8820</p>
                         </div>
                     </div>
                 </div>

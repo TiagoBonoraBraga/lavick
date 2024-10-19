@@ -19,7 +19,7 @@ const imagesWallpaper= [
 export default function Wallpaper() {
     return (
         <>
-            <SecondHeader src="/quarto.jpg" title="Papel de Parede" />
+            <SecondHeader src="/papel7.jpg" title="Papel de Parede" />
             <main>
                 <div className="bg-white p-8 sm:p-10 md:p-16 lg:p-20 m-4 sm:m-6 md:m-8 lg:m-10 rounded-lg shadow-xl border grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div className="flex flex-col justify-start">

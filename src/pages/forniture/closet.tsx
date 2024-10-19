@@ -1,7 +1,7 @@
 import React from "react";
 import SecondHeader from "@/components/molecules/SecondHeader";
 import FornitureSection from "@/components/molecules/fornitureHeader";
-import FornitureCard from "@/components/molecules/FornitureCard";
+// import FornitureCard from "@/components/molecules/FornitureCard";
 import ImageGallery from "@/components/organisms/ImageGallery";
 
 const imagesCloset = [
@@ -15,11 +15,11 @@ export default function Closet() {
     return (
         <>
             <main className="bg-backgroundDiv">
-                <SecondHeader src="/quarto.jpg" title="Closet" />
+                <SecondHeader src="/closet.jpeg" title="Closet" />
                 <FornitureSection
                     h1="Closets Sob Medida: Organização e Estilo Feitos para Você."
                     p="Transformando Ambientes, Elevando o Conforto e a Elegância." />
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-6 p-6">
+                {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-6 p-6">
                     <FornitureCard
                         src="/quarto.jpg"
                         alt="foto Closets"
@@ -38,7 +38,7 @@ export default function Closet() {
                         h2="Closets"
                         p="Onde Seu Estilo Encontra a Perfeição."
                     />
-                </div>
+                </div> */}
                 <ImageGallery  images={imagesCloset}/>
             </main>
         </>

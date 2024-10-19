@@ -7,20 +7,18 @@ import ImageGallery from "@/components/organisms/ImageGallery";
 
 
 const imagesFloors = [
-    "/piso.jpg",
-    "/Piso1.jpg",
-    "/piso2.jpg",
+    "/piso.jpg",    
+    "/piso7.jpeg",
     "/piso3.jpg",
-    "/piso4.jpg",
-    "/piso5.jpg",
-    "/piso6.jpg",
-    "/piso7.jpeg"
+    "/piso2.jpg",
+    "/piso4.jpg", 
+      
 ];
 
 export default function Floors() {
     return (
         <>
-            <SecondHeader src="/quarto.jpg" title="Piso Laminado e Vinílico" />
+            <SecondHeader src="/piso7.jpeg" title="Piso Laminado e Vinílico" />
             <main>
                 <div className="bg-white p-8 sm:p-10 md:p-16 lg:p-20 m-4 sm:m-6 md:m-8 lg:m-10 rounded-lg shadow-xl border grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div className="flex flex-col justify-start">
