@@ -2,6 +2,7 @@
 import { useRouter } from 'next/router';
 import Image from "next/image";
 import { posts } from '../../api/posts.mocks';
+import Link from 'next/link';
 
 export default function Post() {
   const router = useRouter();
@@ -41,6 +42,11 @@ export default function Post() {
         <h3 className='text-xl font-bold my-2'>{post.subTitle3}</h3>
         <p>{post.conclusion}</p>
       </div>
+      <button className='py-6 font-bold text-xl cursor-pointer'>
+        <Link href={"/blog"}>
+          <span>Voltar</span>
+        </Link>
+      </button>
     </div>
   );
 }

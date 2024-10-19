@@ -6,7 +6,7 @@ export const posts = [
         title: "Móveis Sob Medida: A Solução Ideal para Qualquer Espaço",
         slug: "moveis-sob-medida",
         image: "/cozinhaVerde2.jpeg",
-        imagePost: "/cozinhaSlide.jpg",
+        imagePost: "/cozinhaVerde2.jpeg",
         excerpt: "Os móveis sob medida se destacam como a escolha perfeita para quem busca unir funcionalidade, estética e personalização em seus ambientes. Ao contrário dos móveis prontos, que muitas vezes não se encaixam perfeitamente nos espaços disponíveis, os móveis sob medida são projetados para atender às necessidades específicas de cada cliente, garantindo um aproveitamento inteligente do espaço e um design único.",
         subTitle: "Vantagens dos Móveis Sob Medida",
         items: [
@@ -54,7 +54,7 @@ export const posts = [
         title: "Persianas: Funcionalidade e Estilo para seu Ambiente",
         slug: "blinds-persiana",
         image: "/percianas.jpeg",
-        imagePost: "/cozinhaSlide.jpg",
+        imagePost: "/percianas.jpeg",
         excerpt: "As persianas são uma escolha popular para quem busca uma aparência moderna e sofisticada, aliada a um controle preciso da luz e da privacidade. Elas estão disponíveis em diversos materiais, como alumínio, madeira, PVC e tecidos, e em diferentes estilos, como verticais, horizontais e rolôs.",
         subTitle: "Vantagens das Persianas",
         items: [
@@ -100,7 +100,7 @@ export const posts = [
         title: "Cortinas: O toque final que faltava para o seu ambiente.",
         slug: "blinds-cortina",
         image: "/percianas.jpeg",
-        imagePost: "/cozinhaSlide.jpg",
+        imagePost: "/percianas.jpeg",
         excerpt: "As cortinas são clássicas e versáteis, adicionando um toque de suavidade e elegância a qualquer ambiente. Feitas de uma variedade de tecidos e estilos, elas podem complementar qualquer decoração, desde a mais tradicional até a mais contemporânea.",
         subTitle: "Vantagens das Cortinas",
         items: [
@@ -147,8 +147,8 @@ export const posts = [
         id: 4,
         title: "Piso Laminado: Praticidade e Elegância para Seu Ambiente.",
         slug: "floors",
-        image: "/Piso1.jpg",
-        imagePost: "/cozinhaSlide.jpg",
+        image: "/Piso.jpg",
+        imagePost: "/Piso.jpg",
         excerpt: "O piso laminado se tornou uma escolha popular para quem busca renovar o piso de forma rápida, econômica e estilosa. Com uma ampla variedade de padrões que imitam a aparência da madeira natural, o piso laminado oferece uma solução versátil e durável para diversos tipos de ambientes, desde residenciais até comerciais.",
         subTitle: "Vantagens do Piso Laminado",
         items: [
@@ -196,7 +196,7 @@ export const posts = [
         title: "Papel de Parede: Transformação de sua casa.",
         slug: "wallpapers",
         image: "/papel2.jpg",
-        imagePost: "/cozinhaSlide.jpg",
+        imagePost: "/papel2.jpg",
         excerpt: "O papel de parede se destaca como a escolha perfeita para quem busca transformar seus ambientes com personalidade e estilo. Ao contrário das tintas tradicionais, o papel de parede oferece uma infinidade de padrões, texturas e cores, permitindo criar espaços únicos e personalizados que refletem sua individualidade.",
         subTitle: "Vantagens do Papel de Parede",
         items: [

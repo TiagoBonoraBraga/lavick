@@ -5,10 +5,10 @@ import { RxDotFilled } from 'react-icons/rx';
 export default function MainSlide() {
 
     const slides = [
-        { url: "/cozinhaVerde2.jpeg" },
-        { url: "/lavanderiaSlide.jpg" },
         { url: "/homeSlide.jpg" },
-        { url: "/quartoSlide.jpg" }
+        { url: "/lavanderiaSlide.jpg" },
+        { url: "/quartoSlide.jpg" },
+        { url: "/cozinhaVerde2.jpeg" },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
