@@ -4,6 +4,7 @@ import ServiceTitle from "@/components/molecules/ServicesTitle";
 import ServiceCard from "@/components/molecules/ServiceCard";
 import { faSun , faLayerGroup, faTools, faCog, faHeadset } from '@fortawesome/free-solid-svg-icons';
 import ImageGallery from "@/components/organisms/ImageGallery";
+import SEO from "@/components/molecules/Seo";
 
 const imagesBlids = [
     "/percianas.jpeg",
@@ -15,6 +16,15 @@ const imagesBlids = [
 export default function Blinds() {
     return (
         <>
+        <SEO
+                title="Lavick Marcenaria - Persianas e Cortinas"
+                description="Lavick Marcenaria - comércio de móveis planejados, pisos laminados, persianas, cortinas e papel de parede."
+                keywords="moveis planejados, desing de interiores, cozinhas planejadas, dormitórios planejados, escritório planejado"
+                image="/logo/logoPreto.png" // URL da sua imagem de Open Graph
+                url="https://lavickmarcenaria.com.br" // URL da página
+                author="Lavick Marcenaria" // Nome do autor do conteúdo
+                locale="pt_BR" // Localização e idioma do conteúdo
+            />
             <SecondHeader src="/percianas.jpeg" title="Persiana" />
             <main>
             <div className="bg-white p-8 sm:p-10 md:p-16 lg:p-20 m-4 sm:m-6 md:m-8 lg:m-10 rounded-lg shadow-xl border grid grid-cols-1 lg:grid-cols-2 gap-8">

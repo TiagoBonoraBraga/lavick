@@ -3,6 +3,7 @@ import SecondHeader from "@/components/molecules/SecondHeader";
 import FornitureHeader from "@/components/molecules/fornitureHeader";
 // import FornitureCard from "@/components/molecules/FornitureCard";
 import ImageGallery from "@/components/organisms/ImageGallery";
+import SEO from "@/components/molecules/Seo";
 
 const imagesBathroom = [
     "/banheiro1.jpg",    
@@ -12,6 +13,15 @@ const imagesBathroom = [
 export default function Bathrooms() {
     return (
         <>
+        <SEO
+                title="Lavick Marcenaria - Banheiros"
+                description="Lavick Marcenaria - comércio de móveis planejados, pisos laminados, persianas, cortinas e papel de parede."
+                keywords="moveis planejados, desing de interiores, cozinhas planejadas, dormitórios planejados, escritório planejado"
+                image="/logo/logoPreto.png" // URL da sua imagem de Open Graph
+                url="https://lavickmarcenaria.com.br" // URL da página
+                author="Lavick Marcenaria" // Nome do autor do conteúdo
+                locale="pt_BR" // Localização e idioma do conteúdo
+            />
             <main className="bg-backgroundDiv">
                 <SecondHeader src="/banheiro1.jpg" title="Banheiro" />
                 <FornitureHeader
