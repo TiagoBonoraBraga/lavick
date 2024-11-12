@@ -14,6 +14,7 @@ export default function InfoCardsSection() {
           src={Background}
           alt="Lavick Marcenaria"
           width={1280}
+          height={500}
         />
         {/* Overlay escuro */}
         <div className="absolute inset-0 bg-slate-400  min-h-auto opacity-50"></div>

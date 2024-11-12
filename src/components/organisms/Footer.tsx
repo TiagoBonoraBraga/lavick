@@ -10,7 +10,7 @@ export default function Footer() {
                 <div className="container mx-auto px-4  ">
                     <div className="flex flex-col xs:flex-row justify-between">
                         <div className="flex items-center mb-4 xs:mb-0">
-                            <Image src={Logo} alt="Logo Lavick" width={300} />
+                            <Image src={Logo} alt="Logo Lavick" width={300} height={200} />
                         </div>
 
                         <div className="flex flex-col xs:flex-row">

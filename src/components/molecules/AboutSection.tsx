@@ -18,7 +18,7 @@ export default function AboutSection1() {
                         </p>
                     </div>
                     <div className="md:w-1/2 p-6 ">
-                        <Image src={Foto} alt="Lavick Marcenaria" className="rounded-lg" />
+                        <Image src={Foto} alt="Lavick Marcenaria" className="rounded-lg" layout="responsive" width={100} height={100} />
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row  justify-center items-center">
@@ -32,7 +32,7 @@ export default function AboutSection1() {
                         </p>
                     </div>
                     <div className="md:w-1/2 p-6 ">
-                        <Image src={Foto2} alt="Lavick Marcenaria" className="rounded-lg" />
+                        <Image src={Foto2} alt="Lavick Marcenaria" className="rounded-lg" layout="responsive" width={100} height={100} />
                     </div>
                 </div>
             </section>
