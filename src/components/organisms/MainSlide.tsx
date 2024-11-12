@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 
@@ -11,6 +11,17 @@ export default function MainSlide() {
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
+    
+    // const nextSlide = () => {
+    //     const isLastSlide = currentIndex === slides.length - 1;
+    //     const newIndex = isLastSlide ? 0 : currentIndex + 1;
+    //     setCurrentIndex(newIndex);
+    // };
+    const nextSlide = useCallback(() => {
+        const isLastSlide = currentIndex === slides.length - 1;
+        const newIndex = isLastSlide ? 0 : currentIndex + 1;
+        setCurrentIndex(newIndex);
+    }, [currentIndex, slides.length]); 
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -19,7 +30,7 @@ export default function MainSlide() {
 
         // Limpa o temporizador quando o componente desmontar ou quando currentIndex mudar
         return () => clearTimeout(timer);
-    }, [currentIndex]);
+    }, [nextSlide]);
 
     const prevSlide = () => {
         const isFirstSlide = currentIndex === 0;
@@ -27,11 +38,6 @@ export default function MainSlide() {
         setCurrentIndex(newIndex);
     };
 
-    const nextSlide = () => {
-        const isLastSlide = currentIndex === slides.length - 1;
-        const newIndex = isLastSlide ? 0 : currentIndex + 1;
-        setCurrentIndex(newIndex);
-    };
 
     const goToSlide = (slideIndex: number) => {
         setCurrentIndex(slideIndex);
