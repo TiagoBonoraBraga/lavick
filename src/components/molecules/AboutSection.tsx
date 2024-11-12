@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Foto from "../../../public/quartoMenino.jpeg";
+import Foto from "../../../public/dormitorio/quartoMenino.jpeg";
+import Foto2 from "../../../public/cozinhas/passaPratos.jpeg";
 
 export default function AboutSection1() {
     return (
@@ -31,7 +32,7 @@ export default function AboutSection1() {
                         </p>
                     </div>
                     <div className="md:w-1/2 p-6 ">
-                        <Image src={Foto} alt="Lavick Marcenaria" className="rounded-lg" />
+                        <Image src={Foto2} alt="Lavick Marcenaria" className="rounded-lg" />
                     </div>
                 </div>
             </section>

@@ -10,9 +10,10 @@ const imagesLaundry = [
     "/laundry/lavanderia2.jpg",    
     "/laundry/lavanderia4.jpg",        
     "/laundry/lavanderia5.jpg",
-    "/laundry/lavanderia8.jpg",        
-    
-    
+    "/laundry/lavanderia8.jpg",   
+    "/laundry/lavanderia9.jpg",
+    "/laundry/lavanderiaSlide.jpg",    
+    "/laundry/lavanderiaNova.jpeg"    
 ];
 
 

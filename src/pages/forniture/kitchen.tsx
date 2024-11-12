@@ -12,7 +12,11 @@ const imagesKitchen = [
     "/cozinhas/Cozinha 4.jpg",    
     "/cozinhas/Cozinha 5.jpg",
     "/cozinhas/cozinha2.jpeg",
-        
+    "/cozinhas/cozinhaBalcao.jpeg",
+    "/cozinhas/cozinhaBranca.jpeg",
+    "/cozinhas/cozinhaBancada.jpeg",
+    "/cozinhas/passaPratos.jpeg"
+,        
 ];
 
 export default function kitchen() {
@@ -40,13 +44,13 @@ export default function kitchen() {
                         p="Design Harmonioso e Integrado."
                     />
                     <FornitureCard
-                        src="/cozinhaVerde.jpeg"
+                        src="/cozinhas/cozinhaVerde2.jpeg"
                         alt="foto Modernidade"
                         h2="Modernidade"
                         p=" Personalização e Funcionalidade em Cada Detalhe."
                     />
                     <FornitureCard
-                        src="/Cozinha2.jpeg"
+                        src="/cozinhas/cozinhaBancada.jpeg"
                         alt="foto Lavick Cozinhas"
                         h2="Lavick Cozinhas"
                         p="Onde Seu Estilo Encontra a Perfeição."

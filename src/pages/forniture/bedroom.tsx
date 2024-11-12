@@ -10,7 +10,11 @@ const imagesBedroom = [
     "/dormitorio/dormitorio2.jpg",
     "/dormitorio/dormitorio3.jpg",
     "/dormitorio/nichosMenina.jpeg",      
-    "/dormitorio/quartoMenina.jpeg",     
+    "/dormitorio/quartoMenina.jpeg",   
+    "/dormitorio/dormitorioEncaixe2.jpeg",  
+    "/dormitorio/dormitorioEncaixe3.jpeg",  
+    "/dormitorio/dormitorioEncaixe4.jpeg",  
+    "/dormitorio/dormitorioEncaixe1.jpeg",  
 ];
 
 export default function Bedroom() {
@@ -32,7 +36,7 @@ export default function Bedroom() {
                     p="Lavick Dormitórios , cada centímetro do ambiente é aproveitado de forma inteligente, criando áreas de armazenamento práticas e integradas ao design." />
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-6 p-6">                  
                     <FornitureCard
-                        src="/dormitorio5.png"
+                        src="/dormitorio/dormitorio3.jpg"
                         alt="foto Conforto"
                         h2="Conforto"
                         p="Onde o Descanso se Encontra com a Elegância."
