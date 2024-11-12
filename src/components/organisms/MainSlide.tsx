@@ -8,7 +8,7 @@ export default function MainSlide() {
         { url: "/homeSlide.jpg" },
         { url: "/lavanderiaSlide.jpg" },
         { url: "/quartoSlide.jpg" },
-        { url: "/cozinhaVerde2.jpeg" },
+        { url: "/cozinhas/cozinhaVerde2.jpeg" },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);

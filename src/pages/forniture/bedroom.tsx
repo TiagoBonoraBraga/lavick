@@ -6,11 +6,11 @@ import ImageGallery from "@/components/organisms/ImageGallery";
 import SEO from "@/components/molecules/Seo";
 
 const imagesBedroom = [
-    "/Dormitorio1.jpg",    
-    "/dormitorio2.jpg",
-    "/dormitorio3.jpg",
-    "/nichosMenina.jpeg",      
-    "/quartoMenina.jpeg",     
+    "/dormitorio/Dormitorio1.jpg",    
+    "/dormitorio/dormitorio2.jpg",
+    "/dormitorio/dormitorio3.jpg",
+    "/dormitorio/nichosMenina.jpeg",      
+    "/dormitorio/quartoMenina.jpeg",     
 ];
 
 export default function Bedroom() {

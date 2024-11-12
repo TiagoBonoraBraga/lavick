@@ -7,10 +7,10 @@ import ImageGallery from "@/components/organisms/ImageGallery";
 import SEO from "@/components/molecules/Seo";
 
 const imagesBlids = [
-    "/percianas.jpeg",
-    "/persiana3.jpg",      
-    "/perciana4.jpg",
-    "/persiana2.jpg",
+    "/blinds/percianas.jpeg",
+    "/blinds/persiana3.jpg",      
+    "/blinds/perciana4.jpg",
+    "/blinds/persiana2.jpg",
 ];
 
 export default function Blinds() {

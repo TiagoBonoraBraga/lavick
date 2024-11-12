@@ -6,10 +6,10 @@ import ImageGallery from "@/components/organisms/ImageGallery";
 import SEO from "@/components/molecules/Seo";
 
 const imagesDiningRoom = [
-    "/saladejantar1.jpg",
-    "/saladejantar4.jpg",    
-    "/saladejantar2.jpg",
-    "/saladejantar3.jpg",
+    "/diningRoom/saladejantar1.jpg",
+    "/diningRoom/saladejantar4.jpg",    
+    "/diningRoom/saladejantar2.jpg",
+    "/diningRoom/saladejantar3.jpg",
 ];
 
 export default function DiningRoom() {

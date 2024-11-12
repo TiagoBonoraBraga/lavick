@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Background from "../../../public/montagemClosetOffice.png";
-import Comercial from "../../../public/escritorio6.jpg";
-import Residencial from "../../../public/closet1.jpg";
+import Comercial from "../../../public/office/escritorio6.jpg";
+import Residencial from "../../../public/closet/closet1.jpg";
 import Link from "next/link";
 
 

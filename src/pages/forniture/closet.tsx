@@ -6,9 +6,9 @@ import ImageGallery from "@/components/organisms/ImageGallery";
 import SEO from "@/components/molecules/Seo";
 
 const imagesCloset = [
-    "/closet.jpeg",
-    "/closet3.jpg",
-    "/closet1.jpg",        
+    "/closet/closet.jpeg",
+    "/closet/closet3.jpg",
+    "/closet/closet1.jpg",        
 ];
 
 

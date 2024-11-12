@@ -42,7 +42,7 @@ export default function SEO({ title, description, keywords, image, url, author =
       <meta name="rating" content="general" />
       
       {/* Favicon */}
-      <link rel="icon" href="/logo/logoPreto.png" />
+      <link rel="icon" href="/logo/logoFavicon.jpg" />
     </Head>
   );
 };

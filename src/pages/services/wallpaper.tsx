@@ -7,13 +7,13 @@ import ImageGallery from "@/components/organisms/ImageGallery";
 import SEO from "@/components/molecules/Seo";
 
 const imagesWallpaper= [
-    "/papel.jpg",
-    "/papel2.jpg",
-    "/papel3.jpg",
-    "/papel4.jpg",
-    "/papel5.jpg",
-    "/papel6.jpg",
-    "/papel7.jpg",    
+    "/wallpaper/papel.jpg",
+    "/wallpaper/papel2.jpg",
+    "/wallpaper/papel3.jpg",
+    "/wallpaper/papel4.jpg",
+    "/wallpaper/papel5.jpg",
+    "/wallpaper/papel6.jpg",
+    "/wallpaper/papel7.jpg",    
   
 ];
 

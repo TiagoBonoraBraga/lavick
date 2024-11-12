@@ -6,9 +6,9 @@ import ImageGallery from "@/components/organisms/ImageGallery";
 import SEO from "@/components/molecules/Seo";
 
 const imagesHomeTheater = [
-    "/home1.jpg",       
-    "/home2.jpg",
-    "/home.jpeg",
+    "/homeTheater/home1.jpg",       
+    "/homeTheater/home2.jpg",
+    "/homeTheater/home.jpeg",
     
 ];
 

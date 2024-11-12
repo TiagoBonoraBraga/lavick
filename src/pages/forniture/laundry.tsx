@@ -6,11 +6,11 @@ import ImageGallery from "@/components/organisms/ImageGallery";
 import SEO from "@/components/molecules/Seo";
 
 const imagesLaundry = [
-    "/lavanderia1.jpg",
-    "/lavanderia2.jpg",    
-    "/lavanderia4.jpg",        
-    "/lavanderia5.jpg",
-    "/lavanderia8.jpg",        
+    "/laundry/lavanderia1.jpg",
+    "/laundry/lavanderia2.jpg",    
+    "/laundry/lavanderia4.jpg",        
+    "/laundry/lavanderia5.jpg",
+    "/laundry/lavanderia8.jpg",        
     
     
 ];

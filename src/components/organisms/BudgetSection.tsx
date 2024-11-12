@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Quarto from "../../../public/quarto.jpg";
+import Planta from "../../../public/planta.jpeg";
+import Sala from "../../../public/office/salaOffice.jpeg";
 
 export default function BudgetSection() {
     return (
@@ -40,14 +41,14 @@ export default function BudgetSection() {
                 {/* Coluna 2: Imagem */}
                 <div className="flex flex-col gap-4 justify-center p-4 md:justify-end">
                     <Image
-                        src={Quarto}
+                        src={Sala}
                         alt="Quarto com móveis planejados"
                         width={600}
                         height={200}
                         className="rounded-lg"
                     />
                     <Image
-                        src={Quarto}
+                        src={Planta}
                         alt="Quarto com móveis planejados"
                         width={600}
                         height={200}

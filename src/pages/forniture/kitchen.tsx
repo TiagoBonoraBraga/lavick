@@ -6,12 +6,12 @@ import ImageGallery from "@/components/organisms/ImageGallery";
 import SEO from "@/components/molecules/Seo";
 
 const imagesKitchen = [
-    "/cozinhaVerde2.jpeg",
-    "/cozinhaLaranja.jpg",
-    "/cozinhaVerde.jpeg",
-    "/Cozinha 4.jpg",    
-    "/Cozinha 5.jpg",
-    "/cozinha2.jpeg",
+    "/cozinhas/cozinhaVerde2.jpeg",
+    "/cozinhas/cozinhaLaranja.jpg",
+    "/cozinhas/cozinhaVerde.jpeg",
+    "/cozinhas/Cozinha 4.jpg",    
+    "/cozinhas/Cozinha 5.jpg",
+    "/cozinhas/cozinha2.jpeg",
         
 ];
 

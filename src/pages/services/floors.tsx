@@ -8,11 +8,11 @@ import SEO from "@/components/molecules/Seo";
 
 
 const imagesFloors = [
-    "/piso.jpg",    
-    "/piso7.jpeg",
-    "/piso3.jpg",
-    "/piso2.jpg",
-    "/piso4.jpg", 
+    "/floors/piso.jpg",    
+    "/floors/piso7.jpeg",
+    "/floors/piso3.jpg",
+    "/floors/piso2.jpg",
+    "/floors/piso4.jpg", 
       
 ];
 

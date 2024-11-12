@@ -7,7 +7,7 @@ export default function ContactSection() {
     return (
         <div className="container mx-auto pt-[100px]">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-32 bg-backgroundDiv rounded-lg shadow-md p-20 mb-10">
-                <div>
+                <div className="bg-white rounded-lg flex flex-col justify-start items-center py-8 shadow-lg">
                     <h1 className="text-lg font-bold text-black mb-2">Faça seu Orçamento</h1>
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Fale Conosco</h2>
                     <div className="flex flex-col space-y-4 p-4">                     
@@ -21,7 +21,7 @@ export default function ContactSection() {
                             </Link>
                             <span className="text-gray-800 font-medium text-lg">Entre em contato</span>
                         </div>                  
-                        <div className="flex items-center space-x-4 p-4">
+                        <div className="flex items-center space-x-4 p-4 ">
                             <Link
                                 href="https://www.instagram.com/lavick_marcenaria/"
                                 target="_blank"
@@ -33,7 +33,7 @@ export default function ContactSection() {
                         </div>
                     </div>                   
                 </div>
-                <div>
+                <div >
                     <div className="py-4">
                         <p className="font-bold text-lg">Visite nosso Showroom e fique por dentro das novidades</p>
                         <p><strong>Atendimento seg a sexta -</strong> 9:00 às 18:00 horas</p>

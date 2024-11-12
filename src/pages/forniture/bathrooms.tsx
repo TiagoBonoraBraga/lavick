@@ -6,8 +6,8 @@ import ImageGallery from "@/components/organisms/ImageGallery";
 import SEO from "@/components/molecules/Seo";
 
 const imagesBathroom = [
-    "/banheiro1.jpg",    
-    "/banheiro2.jpg",     
+    "/bathroom/banheiro1.jpg",    
+    "/bathroom/banheiro2.jpg",     
 ];
 
 export default function Bathrooms() {

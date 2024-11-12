@@ -6,11 +6,11 @@ import ImageGallery from "@/components/organisms/ImageGallery";
 import SEO from "@/components/molecules/Seo";
 
 const imagesOffice = [
-    "/escritorio4.jpg",        
-    "/escritorio3.jpg",
-    "/escritorio2.jpg",
-    "/escritorio1.jpg",
-    "/escritorio6.jpg",
+    "/office/escritorio4.jpg",        
+    "/office/escritorio3.jpg",
+    "/office/escritorio2.jpg",
+    "/office/escritorio1.jpg",
+    "/office/escritorio6.jpg",
     
 ];
 
