@@ -47,7 +47,7 @@ export default function ImageGallery({ images }: ImageGalleryProps) {
                         onClick={() => ImgAction('previous-image')}
                         className="font-semibold bg-white rounded-md p-4 mr-5 absolute left-80 top-[80%] transform -translate-y-1/2"
                     >
-                        Back
+                        Next
                     </button>
                     <Image
                         src={data.img}
@@ -60,7 +60,7 @@ export default function ImageGallery({ images }: ImageGalleryProps) {
                         onClick={() => ImgAction('next-image')}
                         className="font-semibold bg-white rounded-md p-4 ml-5 absolute right-80 top-[80%] transform -translate-y-1/2"
                     >
-                        Next
+                        Back
                     </button>
                 </div>
             )}

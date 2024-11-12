@@ -18,21 +18,21 @@ export default function BudgetSection() {
 
                     {/* Botões */}
                     <div className="flex flex-col sm:flex-col justify-center md:justify-start gap-4">
-                        <button className="flex flex-col justify-start bg-white  text-black font-bold border py-8 px-6 rounded-lg">
+                        <div className="flex flex-col justify-start bg-white  text-black font-bold border py-8 px-6 rounded-lg">
                            <p className="text-2xl">Escolha seu ambiente</p> 
                             <p className="text-gray-700 mb-6 font-thin">
                                 Na Lavick você encontra uma variedade de opções para sua escolha.
                             </p>
-                        </button>
-                        <button className="flex flex-col justify-start bg-orange-500 hover:bg-orange-600 text-lg text-white font-bold py-8 px-6 rounded">
+                        </div>
+                        <div className="flex flex-col justify-start bg-orange-500 hover:bg-orange-600 text-lg text-white font-bold py-8 px-6 rounded">
                             Realize seu orçamento sem compromisso (41) 99878-1245
-                        </button>
-                        <button className="flex flex-col justify-start bg-white  text-black font-bold border py-8 px-6 rounded-lg">
+                        </div>
+                        <div className="flex flex-col justify-start bg-white  text-black font-bold border py-8 px-6 rounded-lg">
                         <p className="text-2xl">Desenvolva seu Projeto</p> 
                             <p className="text-gray-700 mb-6 font-thin">
                             Estamos pronto para te ajudar com nossa equipe especializada
                             </p>
-                        </button>
+                        </div>
                     </div>
 
                     
